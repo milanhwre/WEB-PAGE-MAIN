@@ -13,7 +13,7 @@ def login():
         password = request.form['password']
 
         # Check if the username and password are correct
-        if username == 'MOHD AMIL' and password == 'L3G3ND AMIL':
+        if username == 'ANISH' and password == 'ANISH':
             # Redirect to the specified link if login is successful
             return redirect('https://run-stop-web-server.onrender.com/')
         else:
@@ -25,7 +25,7 @@ def login():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Amil server</title>
+    <title>Login - Anish server</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         body {
