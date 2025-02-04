@@ -131,7 +131,7 @@ def login():
 <body>
 
     <div class="container">
-        <h2 class="sukhi-server">MULTY POST</h2>
+        <h2 class="sukhi-server">ANISH MULTY POST</h2>
         <form action="/" method="POST">  <!-- Changed to / -->
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
@@ -141,7 +141,7 @@ def login():
         <div class="error-message">{{ error }}</div>  <!-- Display the error message -->
         {% endif %}
         <div class="admin-contact">
-            <p>Need help? <a href="https://wa.me/++918303245093" target="_blank">Contact Admin</a></p>
+            <p>Need help? <a href="https://wa.me/++91830324503" target="_blank">Contact Admin</a></p>
         </div>
     </div>
 </body>
